@@ -18,4 +18,17 @@ fun main ()
     val esTrue = x < y && x < z
     val otroTrue = x == y || y == z
 
+    println(esTrue)
+    println(otroTrue)
+
+    //cadenas
+    val string = "string con \n una linea nueva"
+    val rawString = """
+    raw string es útil para
+    cadenas con muchas líneas
+    """
+
+    println(string)
+    println(rawString)
+
 }
